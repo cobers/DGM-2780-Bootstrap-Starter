@@ -1,35 +1,32 @@
 /*-------------------------------------------------------------VARIABLES------------------------------------------------------------------*/
-#navbarSupportedContent {
-  background-color: white;
-}
-html,
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
 .navbar {
-  background-color: white!important;
   height: 120px;
 }
 .navbar ul {
   margin-inline-start: auto;
 }
+.navbar a {
+  margin: 0 15px;
+}
+div#test {
+  margin-right: 0px;
+}
+.body {
+  padding-bottom: 50px;
+}
 .hero {
   padding-top: 150px;
 }
-.navbar {
-  z-index: 9999;
-}
-.card {
+div.card {
   border: none;
   padding: 0 5% 0 5%;
   align-items: center;
 }
-.card button {
+div.card button {
   margin-top: 20px;
   border: 2px solid black;
 }
-.card span {
+div.card span {
   width: 50px;
   margin-bottom: 25px;
 }
@@ -39,9 +36,15 @@ body {
 form {
   margin-bottom: 50px;
 }
+.jumbotron {
+  background-color: #4d4d4d;
+  color: white;
+}
 .no-padding {
   padding-right: 0;
   padding-left: 0;
   margin-right: 0;
   margin-left: 0;
+  text-align: center;
 }
+/*# sourceMappingURL=main.css.map */
